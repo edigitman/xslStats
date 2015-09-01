@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ingWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ing.war">
+      <element id="artifact" artifact-name="ingWeb:war exploded" />
+    </root>
+  </artifact>
+</component>
