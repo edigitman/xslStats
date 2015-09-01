@@ -19,8 +19,10 @@ public class Transaction {
     private String noCard;
     private String terminal;
     private String auth;
+    @Column(scale = 3, precision = 13)
     private BigDecimal amount;
     private String currency;
+    @Column(scale = 3, precision = 13)
     private BigDecimal amountRon;
     private Boolean debit;
 

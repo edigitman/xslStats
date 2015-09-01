@@ -19,7 +19,7 @@
             <property name="eclipselink.jdbc.password" value="toor" />
 
             <!-- EclipseLink should create the database schema automatically -->
-            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
             <property name="eclipselink.ddl-generation.output-mode"  value="database"/>
         </properties>
 
